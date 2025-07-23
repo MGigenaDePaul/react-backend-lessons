@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend lessons",
+  "keywords": [
+    "backend",
+    "node",
+    "express",
+    "api",
+    "javascript",
+    "react",
+    "fullstack"
+  ],
+  "homepage": "https://github.com/MGigenaDePaul/react-lessons#readme",
+  "bugs": {
+    "url": "https://github.com/MGigenaDePaul/react-lessons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MGigenaDePaul/react-lessons.git"
+  },
+  "license": "MIT",
+  "author": "Miqueas Gigena",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
